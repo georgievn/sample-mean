@@ -1,6 +1,6 @@
 // Setup
 var express = require('express');
-var app = express();                                              // create our app w/ express
+var app = express();                                              // create our app w/ expresssss
 var mongoose = require('mongoose');                               // mongoose for mongodb
 var port = process.env.BACKEND_PORT || process.env.PORT || 3000;  // set the port from envs, fallback to 3000
 var database = require('./config/database');                      // load the database config
